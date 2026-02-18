@@ -1,1 +1,1 @@
-# aws-ai-practitioner-exam-notes
+# AWS AI Practitioner Exam Notes
