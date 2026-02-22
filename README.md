@@ -7,3 +7,4 @@
 ## Details
 
 - [Amazon Bedrock and GenAI](01_amazon_bedrock)
+- [Prompt Engineering](02_prompt_engineering)
