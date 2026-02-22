@@ -1,0 +1,32 @@
+# Machine Learning Terms
+
+- GPT
+  - Generative Pretrained Transformer
+    - Generate text or code based on inputs
+- BERT
+  - Bi-directional Encoder Representations from Transformers
+    - Similar to GPT, but reads text in two directions
+- RNN
+  - Recurrent Neural Network
+    - Meant for sequential data
+      - Time series or text
+    - Useful for speech recognition and time series prediction
+- ResNet
+  - Residual Network
+    - Deep Convelutional Neural Network (CNN)
+    - Used for image recognition, object detection, facial recognition
+- SVM
+  - Support Vector Machine
+  - ML algorithm for classification and regression
+- WaveNet
+  - Model to generate raw audio waveforms
+  - Used in speech synthesis
+- GAN
+  - Generative Adversarial Networks
+    - Models used to generate synthetic data
+    - Images, videos, or sounds
+    - Resembles training data
+    - Used for data augmentation
+- XGBoost
+  - Extreme Gradient Boosting
+    - Implementation of gradient boosting
