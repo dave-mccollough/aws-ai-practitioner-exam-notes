@@ -1,0 +1,90 @@
+# Supervised Learning
+
+- A mapping function that can predict output for new unseen input data
+- Needs labeled data
+  - Very powerful, but dificult to perform on millions of datapoints
+
+- Regression
+  - Used to predict a numeric value based on input data
+  - The output variable is continous, meaning it can take any value within a range
+  - Use cases
+    - The goal is to predict a quantity or real value
+  - Examples
+    - Predict house prices
+      - Based on features like size, bedrooms, location, etc.
+    - Predict stock prices
+      - Predict a future stock price based on historical values
+    - Weather forecasting
+      - Predict weather based on historical data
+
+- Classification
+  - Used to predict the catagorical label of input data
+  - Output variable is discrete
+    - Falls into a specific category or class
+  - Use Cases
+    - Scenarios where decisions or predictions need to be made between distict categories
+      - Image Classification
+      - Fraud Detection
+      - Customer Retention
+  - Examples
+    - Binary Classification
+      - Classify emails as spam or not spam
+    - Multiclass Classification
+      - Classify animals in a zoo as mammal, bird, reptile, etc
+    - Multilabel Classification
+      - Assign multiple labels to a movie like action or comedy
+  - Key algorithm: K-nearest neighbor (k-NN) model
+
+- Training vs Validation vs Test Set
+  - Training Set
+    - Used to train the model
+    - Typically 60-80 percent of the dataset
+    - Example
+      - 800 labeled images from a dataset of a 1000 images
+  - Validation Set
+    - Used to tune model parameters and validate performance
+    - Typically 10-20 percent of the dataset
+    - Example
+      - 100 labeled images for hyperparameter tuning
+      - Tune the settings of an algorithm to make it more efficient
+  - Test Set
+    - Used to evaluate final model performance
+    - Typically 10-20 perecent of the dataset
+    - 100 labeled images to test model accuracy
+
+- Feature Engineering 
+  - The process of using domain knowledge to select and transform raw data into meaningful features
+  - Helps to enhance the performance of machine learning models
+  - Techniques
+    - Feature Extraction
+      - Extracting useful information from raw data
+    - Feature Selection
+      - Selecting a subset or relevant features
+      - Choosing important predictors in a regresion model
+    - Feature Transformation
+      - Transforming data for better model performance
+      - Normalizing numerical data
+  - Meaningful for Supervised Learning
+
+- Feature Engineering on Structured Data
+  - Structured Data
+  - Feature Engineering Tasks
+    - Feature Creation
+      - Deriving new features 
+        - Price per square foot
+    - Feature Selection
+      - Identifying and retaining important features
+        - Number of bedrooms
+    - Feature Transformation
+      - Normalizing features to ensure they are on a similar scale
+
+- Feature Engineering on Unstructured Data
+  - Unstructured Data 
+    - Text/Images
+    - Example
+      - Sentiment analysis of customer reviews
+  - Feature Engineering Tasks
+    - Text Data
+      - Converting text into numericcal features
+    - Image Data
+      - Extracting features such as edges or techniques

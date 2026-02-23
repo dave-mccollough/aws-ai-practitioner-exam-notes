@@ -1,0 +1,37 @@
+# Phases of a Machine Learning Project
+
+- Define Business Goals
+  - Stakeholders define the value, budget, and success critera
+  - Defining KPIs
+- ML Problem Framing
+  - Convert business problem into ML problems
+  - Determine ML is appropiate
+  - SMEs collaborate
+- Data Processing
+  - Convert data into usable format
+  - Data collection and integration
+  - Data preprocessing and data visualization
+  - Feature engineering, create, transform and extract variables from data
+- Model Development
+  - Model training, tuning, and evaluation
+  - Iterative process
+  - Additional feature engineering and tune model hyperparameters
+- Exploratory Data Analysis
+  - Visualize the data with graphs
+  - Correlation matrix  
+    - Look at correlations between variables
+    - Helps you decide which features can be important to your model
+- Retrain
+  - Look at data and features to improve the model
+  - Adjust the model training hyperparameters
+- Deployment
+  - If results are good, model is deployed and ready to make inferences
+  - Select a deployment model
+- Monitoring
+  - Deploy a system to check the desired level of performance
+  - Early detection and mitigation
+  - Debug issues and understand the model's behavior
+- Iterations
+  - Model is continuously improved and refined as new data becomes available
+  - Requirements may change
+  - Interation keeps model accurate and relevant over time
