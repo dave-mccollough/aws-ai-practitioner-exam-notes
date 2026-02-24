@@ -10,3 +10,4 @@
 - [Prompt Engineering](02_prompt_engineering)
 - [Amazon Q](03_amazon_q)
 - [Artifical Intelligence and Machine Learning](05_ai_ml)
+- [AWS Managed AI Services](06_managed_ai_services)
